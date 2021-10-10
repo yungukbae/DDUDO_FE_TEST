@@ -7,6 +7,11 @@
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
 
 /nextjs-blog
+ddudo_fe_test/node_modules
+ddudo_fe_test/.next
+ddudo_fe_test/next-env.d.ts
+ddudo_fe_test/.gitignore
+ddudo_fe_test/.eslintrc.json
 
 # User-specific stuff
 .idea/**/workspace.xml
