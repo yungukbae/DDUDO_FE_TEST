@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import {useState} from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import Signout from '../component/signout'
+import Signout from '../../../ddudo_fe_origin/component/signout'
 import Signin from '../component/signin'
 
 const Home: NextPage = () => {
@@ -13,7 +13,7 @@ const Home: NextPage = () => {
           <title>DDUDO</title>
            <meta name="description" content="DDUDO와 함께 시작하세요!" />
         </Head>
-        {/*<Signout/>*/}
+        <Signout/>
         <Signin/>
     </div>
   )
